@@ -20,6 +20,7 @@ func ArabicToRomans(number uint16) {
 	var digitos []uint16
 	for i := number; i <= 0; {
 		i /= 10
+		fmt.Println("Hola")
 		digitos = append(digitos, i)
 	}
 	fmt.Println(digitos)
