@@ -1,6 +1,8 @@
 package converters
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*
 I->1
@@ -17,11 +19,6 @@ var ConstArabicToRomans = map[string]uint8{
 }
 
 func ArabicToRomans(number uint16) {
-	var digitos []uint16
-	for i := number; i <= 0; {
-		i /= 10
-		fmt.Println("Hola")
-		digitos = append(digitos, i)
-	}
-	fmt.Println(digitos)
+
+	fmt.Println(Int2Array(11110))
 }
